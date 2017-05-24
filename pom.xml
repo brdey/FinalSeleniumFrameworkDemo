@@ -14,6 +14,7 @@
         <module>Upscalelearning</module>
         <module>NYP</module>
         <module>W3Schools</module>
+        <module>LinkedIn</module>
     </modules>
 
     <dependencyManagement>

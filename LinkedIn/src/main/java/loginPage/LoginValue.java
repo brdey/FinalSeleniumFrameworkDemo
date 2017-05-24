@@ -17,8 +17,8 @@ public class LoginValue extends CommonAPI {
     WebElement signIn;
 
     public void myLikedInLogin() {
-        email.sendKeys("beleedey@hotmail.com");
-        password.sendKeys("Pritibi19");
+        email.sendKeys("your email address");
+        password.sendKeys("your password");
         signIn.click();
     }
 }
