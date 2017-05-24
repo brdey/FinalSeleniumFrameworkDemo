@@ -26,7 +26,14 @@ public class HomePage extends CommonAPI {
         loginValue.myLikedInLogin();
     }
     public void clickOnMyNetworkTab(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         accessMyLoginValue();
         getMyNetworkTab().click();
+    }
+    //Tesst -3 Invalid login information
+    public void enteringInvalidLoginData(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        LoginValue loginValue = PageFactory.initElements(driver, LoginValue.class);
+        loginValue.enterYourLoginValue("invalid@gmail.com", "abc1234");
     }
 }

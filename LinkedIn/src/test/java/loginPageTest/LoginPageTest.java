@@ -1,9 +1,11 @@
 package loginPageTest;
 
 import base.CommonAPI;
+import homePage.HomePage;
 import loginPage.LoginValue;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import utility.reporting.ApplicationLog;
 
 /**
  * Created by BELEE on 5/23/2017.
@@ -11,7 +13,8 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends CommonAPI {
     @Test
     public void goToLoginPage(){
-        LoginValue loginValue = PageFactory.initElements(driver, LoginValue.class);
-        loginValue.myLikedInLogin();
+        ApplicationLog.epicLogger("Epic: Metro AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>");
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.accessMyLoginValue();
     }
 }

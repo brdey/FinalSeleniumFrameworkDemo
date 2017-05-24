@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/invalidLoginPage/InvalidLoginValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/W3Schools/target/classes/homePage/HomePage.class" afterPath="$PROJECT_DIR$/W3Schools/target/classes/homePage/HomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/W3Schools/target/classes/loginPage/LoginValue.class" afterPath="$PROJECT_DIR$/W3Schools/target/classes/loginPage/LoginValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/W3Schools/target/test-classes/loginPageTest/LoginPageTest.class" afterPath="$PROJECT_DIR$/W3Schools/target/test-classes/loginPageTest/LoginPageTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" afterPath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/W3Schools/target/test-classes/linkedInProfiileTestRunner.xml" afterPath="$PROJECT_DIR$/W3Schools/target/test-classes/linkedInProfiileTestRunner.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,66 +47,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/W3Schools/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadTableData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/W3Schools/src/test/java/tabledata/ReadTableData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="News.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYP/src/test/java/news/News.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginValue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Metro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYP/src/test/java/metro/Metro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="486">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidLoginValue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/invalidLoginPage/InvalidLoginValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,9 +104,21 @@
       <file leaf-file-name="linkedInProfiileTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="441">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginWithInvalidValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,10 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Upscalelearning/pom.xml" />
-        <option value="$PROJECT_DIR$/Upscalelearning/src/test/java/home/TestLogin.java" />
-        <option value="$PROJECT_DIR$/Upscalelearning/src/test/resources/UpScalelearningTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/home/TestAmazonHome.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/home/SerachItems.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
@@ -185,8 +193,12 @@
         <option value="$PROJECT_DIR$/DhakaStockExchange/pom.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/invalidLoginPage/InvalidLoginValue.java" />
       </list>
     </option>
   </component>
@@ -454,6 +466,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -534,6 +550,40 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkedIn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginPageTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -591,6 +641,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkedIn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkedIn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extent-Report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -637,34 +735,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
-    <configuration default="false" name="C:/Users/PIIT_NYA/IdeaProjects/PntAutomation/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Amazon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="W3Schools" />
@@ -780,6 +850,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExtentReport.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/automation-march2017/LinkedIn/Extent-Report/ExtentReport.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1192,19 +1265,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/PntAutomation/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/DhakaStockExchange/src/test/resources/dhakaStockExchangeRunner.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.News.headlineNews" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/DhakaStockExchange/src/test/resources/dhakaStockExchangeRunner.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.News.headlineNews" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ExtentReport.html" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.News.headlineNews" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/DhakaStockExchange/src/test/resources/dhakaStockExchangeRunner.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/PntAutomation/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ExtentReport.html" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.News.headlineNews" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/DhakaStockExchange/src/test/resources/dhakaStockExchangeRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -1222,7 +1295,7 @@
       <workItem from="1494358144022" duration="201000" />
       <workItem from="1495587620721" duration="4630000" />
       <workItem from="1495602347501" duration="224000" />
-      <workItem from="1495636254526" duration="964000" />
+      <workItem from="1495636254526" duration="5864000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1242,48 +1315,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 03m 06s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 04m 07s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 04m 54s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 07m 21s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 08m 28s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.23 at 23h 09m 08s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 11h 24m 55s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 11h 26m 04s.xml">
       <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_PIIT_NYA_IdeaProjects_automation-march2017_W3Schools_src_test_resources_W3SchoolsTestRunner_xml - 2017.05.23 at 21h 28m 49s.xml">
-      <configuration name="C:/Users/PIIT_NYA/IdeaProjects/automation-march2017/W3Schools/src/test/resources/W3SchoolsTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 12h 42m 50s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="News_headlineNews - 2017.05.24 at 01h 08m 46s.xml">
-      <configuration name="News.headlineNews" configurationId="TestNG" />
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 00m 51s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 01m 26s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 02m 53s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 02m 59s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 05m 47s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 06m 49s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 09m 04s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_linkedInProfiileTestRunner_xml - 2017.05.24 at 13h 11m 09s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7526000" />
+    <option name="totallyTimeSpent" value="12426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1295,14 +1367,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245033" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1395,8 +1467,14 @@
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1405,28 +1483,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NYP/src/main/java/metro/MetroPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentTestUpdate.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1438,13 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="18" column="133" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYP/src/test/java/metro/Metro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="121" />
         </state>
       </provider>
     </entry>
@@ -1645,13 +1694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/W3Schools/src/main/java/tablepage/TableData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
@@ -1682,7 +1724,7 @@
         <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1704,21 +1746,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/W3Schools/src/test/java/tabledata/ReadTableData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,18 +1770,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/NYP/src/test/java/metro/Metro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="231">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="486">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="454" column="0" lean-forward="false" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/loginPageTest/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/invalidLoginPage/InvalidLoginValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

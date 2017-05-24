@@ -21,5 +21,10 @@ public class LoginValue extends CommonAPI {
         password.sendKeys("your password");
         signIn.click();
     }
+    public void enterYourLoginValue(String uEmail, String uPassword) {
+        email.sendKeys(uEmail);
+        password.sendKeys(uPassword);
+        signIn.click();
+    }
 }
 // This method will ask for credention in Test page
