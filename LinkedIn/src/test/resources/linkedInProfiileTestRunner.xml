@@ -3,7 +3,7 @@
 
 <suite name="LinkedIn" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>

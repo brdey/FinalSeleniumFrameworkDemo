@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" afterPath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/W3Schools/target/test-classes/linkedInProfiileTestRunner.xml" afterPath="$PROJECT_DIR$/W3Schools/target/test-classes/linkedInProfiileTestRunner.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +27,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
@@ -73,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkedInProfiileTestRunner.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linkedInProfiileTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="105">
+              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -172,8 +168,8 @@
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -1270,7 +1266,7 @@
       <workItem from="1494358144022" duration="201000" />
       <workItem from="1495587620721" duration="4630000" />
       <workItem from="1495602347501" duration="224000" />
-      <workItem from="1495636254526" duration="12069000" />
+      <workItem from="1495636254526" duration="12691000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1314,7 +1310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495648365849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Framework update">
+      <created>1495656062272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495656062272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1350,7 +1353,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18631000" />
+    <option name="totallyTimeSpent" value="19253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1841,18 +1844,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="105" column="55" lean-forward="false" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>
