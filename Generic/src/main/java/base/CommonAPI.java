@@ -100,10 +100,10 @@ public class CommonAPI {
     }
 
     public static WebDriver driver = null;
-    private String saucelabs_username = "mrahman";
+    private String saucelabs_username = "brdey";
     private String browserstack_username = "beleedey1";
     private String saucelabs_accesskey = "ssh key";
-    private String browserstack_accesskey = "UapWttdvcYzTxmUDeqNy";
+    private String browserstack_accesskey = "access-key";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod

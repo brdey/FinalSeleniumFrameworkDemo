@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="LinkedIn" parallel="tests">
+<suite name="LinkedIn" parallel="false">
 
     <parameter name="useCloudEnv" value="true"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="firefox"/>
