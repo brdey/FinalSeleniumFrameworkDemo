@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="loginPageTest.LoginPageTest">
+        <methods>
+          <include name="goToLoginPage"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- loginPageTest.LoginPageTest -->
+      <class name="myNetworkTabTest.MyNetworkTabTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="myNetworkPage"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- myNetworkTabTest.MyNetworkTabTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
