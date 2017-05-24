@@ -3,7 +3,7 @@
 
 <suite name="LinkedIn" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -13,8 +13,8 @@
     <test name = "Linked In Profile Test">
         <classes>
             <class name="invalidLoginTest.LoginWithInvalidValue"></class>
-            <class name="loginPageTest.LoginPageTest"></class>
-            <class name="myNetworkTabTest.MyNetworkTabTest"></class>
+            <!--<class name="loginPageTest.LoginPageTest"></class>-->
+            <!--<class name="myNetworkTabTest.MyNetworkTabTest"></class>-->
         </classes>
     </test>
 
