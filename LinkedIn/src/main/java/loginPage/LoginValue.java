@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import utility.reporting.TestLogger;
 
 /**
  * Created by BELEE on 5/23/2017.
@@ -17,6 +18,7 @@ public class LoginValue extends CommonAPI {
     WebElement signIn;
 
     public void myLikedInLogin() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         email.sendKeys("your email address");
         password.sendKeys("your password");
         signIn.click();
