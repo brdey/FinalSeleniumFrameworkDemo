@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
+    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="Framework update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/invalidLoginTest/LoginWithInvalidValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" afterPath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInProfiileTestRunner.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1267,7 +1262,7 @@
       <workItem from="1494358144022" duration="201000" />
       <workItem from="1495587620721" duration="4630000" />
       <workItem from="1495602347501" duration="224000" />
-      <workItem from="1495636254526" duration="7426000" />
+      <workItem from="1495636254526" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1297,7 +1292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495647279666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Framework update">
+      <created>1495648257552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1495648257552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1333,7 +1335,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13988000" />
+    <option name="totallyTimeSpent" value="14103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
