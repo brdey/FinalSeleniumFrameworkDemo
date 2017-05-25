@@ -107,7 +107,7 @@ public class CommonAPI {
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("true") boolean useCloudEnv, @Optional("true")String cloudEnvName,
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
             @Optional("Windows") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
             String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
         if(useCloudEnv==true){
@@ -128,9 +128,9 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS,String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\BELEE\\IdeaProjects\\Selenium framwork project\\All selenium drivers.chromedriver.exe");
-            }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\BELEE\\IdeaProjects\\Selenium framwork project\\All selenium drivers.chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
+            }else if(OS.equalsIgnoreCase("Win")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
             }
             driver = new ChromeDriver();
         }else if(browserName.equalsIgnoreCase("firefox")){

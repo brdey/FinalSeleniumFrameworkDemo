@@ -141,6 +141,6 @@ public class HomePage extends CommonAPI {
         clickOnPrivacyPolicy();
         List<WebElement> getData = readDataFromprivacyPolicy.findElements(By.cssSelector(".description>h1"));
         String text = getTextByCss("p.first");
-        System.out.println("\n" + text);
+        System.out.println("\n" + text+"\n");
     }
 }
