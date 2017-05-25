@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import utility.reporting.TestLogger;
 
+import java.util.List;
+
 /**
  * Created by BELEE on 5/23/2017.
  */
@@ -130,7 +132,15 @@ public class HomePage extends CommonAPI {
         privacyPolicyVideoPlay.click();
     }
 
+    //Test -8 Read data from Privacy Policy Page
+    @FindBy(how = How.CSS, using = ".description>h1")
+    WebElement readDataFromprivacyPolicy;
 
-
-
+    public void readPostTitle() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        clickOnPrivacyPolicy();
+        List<WebElement> getData = readDataFromprivacyPolicy.findElements(By.cssSelector(".description>h1"));
+        String text = getTextByCss("p.first");
+        System.out.println("\n" + text);
+    }
 }
