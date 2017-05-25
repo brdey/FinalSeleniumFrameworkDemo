@@ -2,16 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage$1.class" afterPath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage$2.class" afterPath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage.class" afterPath="$PROJECT_DIR$/LinkedIn/target/classes/homePage/HomePage.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/data/file1.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/screenshots/searchItemsWithDB (05.14.2017-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/main/java/datasource/DatabaseDataReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/main/java/search/DropDownMenuPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/main/java/search/ItemsToBeSearched.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/main/java/search/SearchPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/home/SearchItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/home/TestAmazonHome.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/searchitems/DropDownMenuSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/searchitems/SearchItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/searchitems/SearchItemsWithDatabaseDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/unit/Calculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/unit/TestCalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunnerOnMac.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/datasource/DatabaseDataReader$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/datasource/DatabaseDataReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/DropDownMenuPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/ItemsToBeSearched$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/ItemsToBeSearched.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/SearchPage$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/SearchPage$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/SearchPage$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/classes/search/SearchPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunnerOnMac.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunnerOnWindows.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/home/SearchItems.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/home/TestAmazonHome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/searchitems/DropDownMenuSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/searchitems/SearchItems.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/searchitems/SearchItemsWithDatabaseDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/unit/Calculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/unit/TestCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon/Amazon Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon/Amazon Home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-home.SearchItems.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-home.TestAmazonHome.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/Amazon Home.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/test-output/testng.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/pom.xml" afterPath="$PROJECT_DIR$/LinkedIn/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/LinkedIn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedInProfiileTestRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedInProfiileTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInProfiileTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -85,7 +152,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChromeDriver.class" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChromeDriver.class" pinned="false" current-in-tab="true">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -93,26 +160,6 @@
               <folding>
                 <element signature="e#1504#1505#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmazonTestRunnerOnWindows.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunnerOnWindows.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -203,10 +250,10 @@
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/allFeaturesTab/ReadingDataFromPrivacyPolicy.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/AllFeaturesTabsTest/AllFeatureTests.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/LinkedInProfiileTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
       </list>
     </option>
   </component>
@@ -257,16 +304,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Amazon" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -484,86 +521,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Amazon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1174,7 +1131,7 @@
       <workItem from="1495602347501" duration="224000" />
       <workItem from="1495636254526" duration="12691000" />
       <workItem from="1495713954239" duration="13023000" />
-      <workItem from="1495737519150" duration="3630000" />
+      <workItem from="1495737519150" duration="4227000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1260,7 +1217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495732485870</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Maven update">
+      <created>1495741404760</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1495741404760</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1296,7 +1260,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45331000" />
+    <option name="totallyTimeSpent" value="45928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1320,12 +1284,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30905077" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075159915" sideWeight="0.49577168" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3156733" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3156733" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671082" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1360,7 +1324,8 @@
     <MESSAGE value="added 1 test case" />
     <MESSAGE value="added more test case" />
     <MESSAGE value="Reading data from webpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading data from webpage" />
+    <MESSAGE value="Maven update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1796,14 +1761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1842,6 +1799,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
