@@ -71,4 +71,66 @@ public class HomePage extends CommonAPI {
         System.out.println("Printing Actual Error message from the site :: " + actualError);
     }
 
+    //Test -5 Trying to sign up with blank fields
+    public void leaveSigningUpFieldsBlank() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        firstName.sendKeys("");
+        lastName.sendKeys("");
+        email.sendKeys("");
+        password.sendKeys("");
+        joinNow.click();
+    }
+
+    //Test -6 Check browse by country link
+    @FindBy(how = How.CSS, using = ".country-search>a")
+    WebElement browseByCountryLink;
+
+    public void clickOnbrowseByCountryLink(){
+        browseByCountryLink.click();
+    }
+
+    //Test -6 Search job by job link from the bottom of the page
+    @FindBy(how = How.CSS, using = "div.links:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)")
+    WebElement jobSearchBycatagories;
+    @FindBy(how = How.CSS, using = ".card-image.engineering")
+    WebElement engineeringJobsLink;
+    @FindBy(how = How.CSS, using = "#keyword-search-box")
+    WebElement giveJobTittleToBeSerched;
+    @FindBy(how = How.CSS, using = "#location-search-box")
+    WebElement giveLocation;
+    @FindBy(how = How.CSS, using = ".search-button")
+    WebElement findJobsButton;
+
+    public void clickOnJobLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        jobSearchBycatagories.click();
+        engineeringJobsLink.click();
+    }
+    public void giveTheValueInSearchBox(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        giveJobTittleToBeSerched.clear();
+        giveJobTittleToBeSerched.sendKeys("Automation QA Engineer Selenium");
+        giveLocation.clear();
+        giveLocation.sendKeys("Boston");
+        findJobsButton.click();
+    }
+
+    //Test -7 Privacy policy page check
+    @FindBy(how = How.CSS, using = ".legal-nav > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)")
+    WebElement privacyPolicyPage;
+    @FindBy(how = How.CSS, using = ".ytp-large-play-button.ytp-button>svg")
+    public WebElement privacyPolicyVideoPlay;
+
+    public void clickOnPrivacyPolicy(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        privacyPolicyPage.click();
+    }
+    public  void clickOnPlayButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        privacyPolicyVideoPlay.click();
+    }
+
+
+
+
 }

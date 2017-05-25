@@ -29,4 +29,3 @@ public class LoginValue extends CommonAPI {
         signIn.click();
     }
 }
-// This method will ask for credention in Test page
