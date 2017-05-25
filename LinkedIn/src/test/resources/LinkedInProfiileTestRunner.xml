@@ -13,6 +13,7 @@
     <test name = "Linked In Profile Test">
         <classes>
             <class name="invalidLoginTest.LoginWithInvalidValue"></class>
+            <class name="AllFeaturesTabsTest.AllFeatureTests"></class>
             <!--<class name="loginPageTest.LoginPageTest"></class>-->
             <!--<class name="myNetworkTabTest.MyNetworkTabTest"></class>-->
         </classes>

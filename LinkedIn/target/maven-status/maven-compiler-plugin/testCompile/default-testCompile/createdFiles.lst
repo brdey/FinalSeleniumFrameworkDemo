@@ -1,2 +1,3 @@
+invalidLoginTest\LoginWithInvalidValue.class
 loginPageTest\LoginPageTest.class
 myNetworkTabTest\MyNetworkTabTest.class
