@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/DhakaStockExchange/pom.xml" />
+        <option value="$PROJECT_DIR$/Upscalelearning/pom.xml" />
       </set>
     </option>
   </component>

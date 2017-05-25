@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Upscalelearning</module>
         <module>NYP</module>
         <module>W3Schools</module>
         <module>LinkedIn</module>

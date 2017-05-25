@@ -9,7 +9,6 @@
         <module name="Generic" />
         <module name="LinkedIn" />
         <module name="NYP" />
-        <module name="Upscalelearning" />
         <module name="W3Schools" />
       </profile>
     </annotationProcessing>
