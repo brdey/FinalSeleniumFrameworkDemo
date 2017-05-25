@@ -8,15 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Generic" />
+        <module name="LinkedIn" />
         <module name="NYP" />
         <module name="Upscalelearning" />
         <module name="W3Schools" />
-      </profile>
-      <profile name="Annotation profile for automation" enabled="true">
-        <sourceOutputDir name="../W3Schools/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../W3Schools/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="LinkedIn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

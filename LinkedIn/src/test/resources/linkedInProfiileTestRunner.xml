@@ -3,11 +3,11 @@
 
 <suite name="LinkedIn" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="58.0"/>
     <parameter name="url" value="https://www.linkedin.com/"/>
     <test name = "Linked In Profile Test">

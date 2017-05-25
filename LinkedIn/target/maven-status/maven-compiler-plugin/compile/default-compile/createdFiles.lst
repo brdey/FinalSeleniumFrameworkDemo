@@ -1,6 +1,6 @@
-loginPage\LoginValue.class
 myNetworkTab\MyNetworkTab$1.class
 homePage\HomePage.class
 homePage\HomePage$1.class
-homePage\HomePage$2.class
 myNetworkTab\MyNetworkTab.class
+loginPage\LoginValue.class
+homePage\HomePage$2.class
