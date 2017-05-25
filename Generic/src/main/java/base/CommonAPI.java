@@ -102,12 +102,12 @@ public class CommonAPI {
     public static WebDriver driver = null;
     private String saucelabs_username = "brdey";
     private String browserstack_username = "beleedey1";
-    private String saucelabs_accesskey = "ssh key";
+    private String saucelabs_accesskey = "09d26ec3-c5ca-4a49-b091-ff8471111b32";
     private String browserstack_accesskey = "access-key";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+    public void setUp(@Optional("true") boolean useCloudEnv, @Optional("true")String cloudEnvName,
             @Optional("Windows") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
             String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
         if(useCloudEnv==true){
@@ -128,9 +128,9 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS,String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
-            }else if(OS.equalsIgnoreCase("Win")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\BELEE\\IdeaProjects\\Selenium framwork project\\All selenium drivers.chromedriver.exe");
+            }else if(OS.equalsIgnoreCase("Windows")){
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\BELEE\\IdeaProjects\\Selenium framwork project\\All selenium drivers.chromedriver.exe");
             }
             driver = new ChromeDriver();
         }else if(browserName.equalsIgnoreCase("firefox")){
@@ -146,7 +146,6 @@ public class CommonAPI {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
     public WebDriver getLocalGridDriver(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
