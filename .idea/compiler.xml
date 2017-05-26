@@ -6,21 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DhakaStockExchange" />
         <module name="Generic" />
+        <module name="GitHub" />
         <module name="LinkedIn" />
         <module name="NYP" />
         <module name="W3Schools" />
+        <module name="Walmart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="DhakaStockExchange" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="GitHub" target="1.8" />
       <module name="LinkedIn" target="1.8" />
       <module name="NYP" target="1.8" />
       <module name="PntAutomation" target="1.8" />
+      <module name="RedFil" target="1.8" />
       <module name="Upscalelearning" target="1.8" />
       <module name="W3Schools" target="1.8" />
+      <module name="Walmart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

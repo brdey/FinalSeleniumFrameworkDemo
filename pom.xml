@@ -13,6 +13,9 @@
         <module>NYP</module>
         <module>W3Schools</module>
         <module>LinkedIn</module>
+        <module>GitHub</module>
+        <module>Walmart</module>
+        <module>DhakaStockExchange</module>
     </modules>
 
     <dependencyManagement>
