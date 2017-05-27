@@ -16,4 +16,10 @@ public class AllAboutUsDropDownMenu extends CommonAPI {
         AboutUsDropdownMenuList aboutUsDropdownMenuList = PageFactory.initElements(driver, AboutUsDropdownMenuList.class);
         aboutUsDropdownMenuList.goToAboutUsDropDown();
     }
+    @Test
+    public void printingTheReadDataFromTableToConsole(){
+        ApplicationLog.epicLogger("Epic: AllAboutUsDropDownMenu AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>");
+        AboutUsDropdownMenuList aboutUsDropdownMenuList = PageFactory.initElements(driver, AboutUsDropdownMenuList.class);
+        aboutUsDropdownMenuList.readingDataFromSharePriceTable();
+    }
 }

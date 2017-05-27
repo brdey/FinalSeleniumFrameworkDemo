@@ -14,4 +14,10 @@ public class AboutUsDropdownMenuList extends CommonAPI {
         DSEHomepageClass dseHomepageClass = PageFactory.initElements(driver,DSEHomepageClass.class);
         dseHomepageClass.aboutUsFeatures();
     }
+
+    public void readingDataFromSharePriceTable(){
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        DSEHomepageClass dseHomepageClass = PageFactory.initElements(driver, DSEHomepageClass.class);
+        dseHomepageClass.readTheDataFromShareByTable();
+    }
 }
