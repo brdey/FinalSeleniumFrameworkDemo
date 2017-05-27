@@ -16,7 +16,6 @@ public class AllFeatureTests extends CommonAPI {
         InvalidSignUpPage invalidSignUpPage = PageFactory.initElements(driver, InvalidSignUpPage.class);
         invalidSignUpPage.FillSigningUpInfo();
     }
-
     @Test
     public void SigningUpWithoutInfo() {
         ApplicationLog.epicLogger("Epic: AllFeatureTests AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>");
@@ -35,7 +34,6 @@ public class AllFeatureTests extends CommonAPI {
         JobSearchByJobLink jobSearchByJobLink = PageFactory.initElements(driver, JobSearchByJobLink.class);
         jobSearchByJobLink.goToJobSearchByCatagoryPage();
     }
-
     @Test
     public void openPrivacyPolicyPage(){
         ApplicationLog.epicLogger("Epic: AllFeatureTests AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>");
@@ -48,5 +46,4 @@ public class AllFeatureTests extends CommonAPI {
         ReadingDataFromPrivacyPolicy readingDataFromPrivacyPolicy = PageFactory.initElements(driver, ReadingDataFromPrivacyPolicy.class);
         readingDataFromPrivacyPolicy.getAndReadThePost();
     }
-
 }

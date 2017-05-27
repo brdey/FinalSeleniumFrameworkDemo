@@ -19,8 +19,8 @@ public class LoginValue extends CommonAPI {
 
     public void myLikedInLogin() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        email.sendKeys("your email address");
-        password.sendKeys("your password");
+        email.sendKeys("beleedey@hotmail.com");
+        password.sendKeys("Pritibi19");
         signIn.click();
     }
     public void enterYourLoginValue(String uEmail, String uPassword) {

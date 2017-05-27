@@ -12,7 +12,6 @@ public class BrowseByCountryLink extends CommonAPI {
     public void goToBrowseByCountryPage(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-        homePage.clickOnbrowseByCountryLink();
-        homePage.giveTheValueInSearchBox();
+        homePage.clickOnBrowseByCountryLink();
     }
 }

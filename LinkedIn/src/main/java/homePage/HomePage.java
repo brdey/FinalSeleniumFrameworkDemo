@@ -57,7 +57,7 @@ public class HomePage extends CommonAPI {
     WebElement email;
     @FindBy(how = How.CSS, using = "#reg-password")
     WebElement password;
-    @FindBy(how = How.CSS, using = "#registration-submit")
+    @FindBy(how = How.XPATH, using = ".//*[@id='registration-submit']")
     WebElement joinNow;
 
     public void enteringAllValuesForSigningUp() {
@@ -67,10 +67,10 @@ public class HomePage extends CommonAPI {
         email.sendKeys("invaidemail@invalid.com");
         password.sendKeys("abc1234");
         joinNow.click();
-        String actualError = driver.findElement(By.cssSelector("#captcha-title")).getAttribute("innerHTML");
+       /* String actualError = driver.findElement(By.cssSelector("#captcha-title")).getAttribute("innerHTML");
         String expectedError = "Security verification";
         Assert.assertEquals(actualError, expectedError);
-        System.out.println("Printing Actual Error message from the site :: " + actualError+"/n");
+        System.out.println("Printing Actual Error message from the site :: " + actualError+"/n");*/
     }
 
     //Test -5 Trying to sign up with blank fields
@@ -87,31 +87,32 @@ public class HomePage extends CommonAPI {
     @FindBy(how = How.CSS, using = ".country-search>a")
     WebElement browseByCountryLink;
 
-    public void clickOnbrowseByCountryLink(){
+    public void clickOnBrowseByCountryLink(){
         browseByCountryLink.click();
     }
 
     //Test -6 Search job by job link from the bottom of the page
     @FindBy(how = How.CSS, using = "div.links:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)")
-    WebElement jobSearchBycatagories;
-    @FindBy(how = How.CSS, using = ".card-image.engineering")
-    WebElement engineeringJobsLink;
-    @FindBy(how = How.CSS, using = "#keyword-search-box")
-    WebElement giveJobTittleToBeSerched;
+    WebElement jobSearchByCatagories;
+    @FindBy(how = How.CSS, using = ".card-image.information-technology")
+    WebElement informationTechnologyJobsLink;
+
+    public void clickOnJobLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        jobSearchByCatagories.click();
+        informationTechnologyJobsLink.click();
+    }
+    @FindBy(how = How.XPATH, using = ".//*[@id='keyword-search-box']")
+    WebElement giveJobTittleToBeSearched;
     @FindBy(how = How.CSS, using = "#location-search-box")
     WebElement giveLocation;
     @FindBy(how = How.CSS, using = ".search-button")
     WebElement findJobsButton;
 
-    public void clickOnJobLink() {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        jobSearchBycatagories.click();
-        engineeringJobsLink.click();
-    }
     public void giveTheValueInSearchBox(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        giveJobTittleToBeSerched.clear();
-        giveJobTittleToBeSerched.sendKeys("Automation QA Engineer Selenium");
+        giveJobTittleToBeSearched.clear();
+        giveJobTittleToBeSearched.sendKeys("Automation QA Engineer Selenium");
         giveLocation.clear();
         giveLocation.sendKeys("Boston");
         findJobsButton.click();
@@ -134,13 +135,14 @@ public class HomePage extends CommonAPI {
 
     //Test -8 Read data from Privacy Policy Page
     @FindBy(how = How.CSS, using = ".description>h1")
-    WebElement readDataFromprivacyPolicy;
+    WebElement readDataFromPrivacyPolicy;
 
     public void readPostTitle() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         clickOnPrivacyPolicy();
-        List<WebElement> getData = readDataFromprivacyPolicy.findElements(By.cssSelector(".description>h1"));
+        List<WebElement> getData = readDataFromPrivacyPolicy.findElements(By.cssSelector(".description>h1"));
         String text = getTextByCss("p.first");
         System.out.println("\n" + text+"\n");
+        System.out.println(getData);
     }
 }
