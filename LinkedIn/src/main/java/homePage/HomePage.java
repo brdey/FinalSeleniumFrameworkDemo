@@ -70,7 +70,7 @@ public class HomePage extends CommonAPI {
         String actualError = driver.findElement(By.cssSelector("#captcha-title")).getAttribute("innerHTML");
         String expectedError = "Security verification";
         Assert.assertEquals(actualError, expectedError);
-        System.out.println("Printing Actual Error message from the site :: " + actualError);
+        System.out.println("Printing Actual Error message from the site :: " + actualError+"/n");
     }
 
     //Test -5 Trying to sign up with blank fields

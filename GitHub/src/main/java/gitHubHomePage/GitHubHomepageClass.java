@@ -33,9 +33,6 @@ public class GitHubHomepageClass extends CommonAPI {
     WebElement giveOldGitProjectUrl;
     @FindBy (how = How.CSS, using = ".btn.btn-primary")
     WebElement clickOnBeginImport;
-    @FindBy (how = How.CSS, using = ".header-logo-invertocat > svg:nth-child(1)")
-    WebElement clickOnGitHubIcon;
-
     @FindBy (how = How.CSS, using = ".anim-fade-in.mt-3>a")
     WebElement clickOnNewCreatedRepositoryLink;
 
@@ -43,19 +40,18 @@ public class GitHubHomepageClass extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         enteringTheValueGiven();
         clickOnNewRepositoryButton.click();
-        repositoryName.sendKeys("Automated Project");
+        repositoryName.sendKeys("Automated-Project");
         createRepository.click();
         clickOnCreatedRepositoryName.click();
         clickOnImportCode.click();
         giveOldGitProjectUrl.sendKeys("https://github.com/brdey/GlassFisherProject.git");
         clickOnBeginImport.click();
-        //clickOnGitHubIcon.click();
         clickOnNewCreatedRepositoryLink.click();
     }
     // Deleting the repository that has been created automatically
     @FindBy (how = How.CSS, using = "a.js-selected-navigation-item:nth-child(6)")
     WebElement clickOnSettingsTab;
-    @FindBy (how = How.CSS, using = ".btn.btn-danger.boxed-action:nth-child(11)")
+    @FindBy (how = How.XPATH, using = ".//*[@id='options_bucket']/div[5]/div/button[3]")
     WebElement clickDeleteRepository;
     @FindBy (how = How.XPATH, using = ".//*[@id='facebox']/div/div/form/p/input")
     WebElement giveTheNameOfRepositoryToBeDeleted;
@@ -70,7 +66,7 @@ public class GitHubHomepageClass extends CommonAPI {
         clickIUnderstandDeleteRepository.click();
     }
     // Checking the project deleted or Not
-    @FindBy (how = How.CSS, using = ".name > img:nth-child(1)")
+    @FindBy (how = How.CSS, using = ".header-nav-link.name.tooltipped.tooltipped-sw.js-menu-target")
     WebElement clickOnArrowOrProfilePic;
     @FindBy (how = How.CSS, using = "div.dropdown-menu > a:nth-child(3)")
     WebElement clickOnYourProfileLink;
@@ -83,7 +79,7 @@ public class GitHubHomepageClass extends CommonAPI {
         jse.executeScript("window.scrollBy(0,250)", "");
     }
     // Signing out from github
-    @FindBy (how = How.CSS, using = ".name > img:nth-child(1)")
+    @FindBy (how = How.XPATH, using = ".//*[@id='user-links']/li[3]/a")
     WebElement clickOnArrowOrProfilePicAgain;
     @FindBy (how = How.CSS, using = ".logout-form > button:nth-child(2)")
     WebElement clickOnSignOutLink;

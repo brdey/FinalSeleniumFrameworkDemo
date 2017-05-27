@@ -22,8 +22,8 @@ public class GitHubTestCases extends CommonAPI {
         GitHubHomepageClass gitHubHomepageClass = PageFactory.initElements(driver, GitHubHomepageClass.class);
         gitHubHomepageClass.creatingNewRepository();
         gitHubHomepageClass.deletingTheRepositoryHasBeenCreated();
-       // gitHubHomepageClass.checkingTheProjectDeletedOrNot();
-       // gitHubHomepageClass.signingOutFromGitHub();
+        /*gitHubHomepageClass.checkingTheProjectDeletedOrNot();
+        gitHubHomepageClass.signingOutFromGitHub();*/
 
     }
 }

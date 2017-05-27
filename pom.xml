@@ -15,9 +15,8 @@
         <module>LinkedIn</module>
         <module>GitHub</module>
         <module>Walmart</module>
-        <module>DhakaStockExchange</module>
+        <module>DhakaStockExchangeBD</module>
     </modules>
-
     <dependencyManagement>
         <dependencies>
             <dependency>

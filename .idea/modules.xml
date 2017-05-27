@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DhakaStockExchange/DhakaStockExchange.iml" filepath="$PROJECT_DIR$/DhakaStockExchange/DhakaStockExchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DhakaStockExchangeBD/DhakaStockExchangeBD.iml" filepath="$PROJECT_DIR$/DhakaStockExchangeBD/DhakaStockExchangeBD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/GitHub/GitHub.iml" filepath="$PROJECT_DIR$/GitHub/GitHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedIn/LinkedIn.iml" filepath="$PROJECT_DIR$/LinkedIn/LinkedIn.iml" />
