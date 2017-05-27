@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="Change pom.xml file">
+    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -946,7 +945,7 @@
       <workItem from="1495807099990" duration="10069000" />
       <workItem from="1495823582350" duration="15171000" />
       <workItem from="1495865476480" duration="684000" />
-      <workItem from="1495888318621" duration="16186000" />
+      <workItem from="1495888318621" duration="16196000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1102,7 +1101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495905144614</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Change pom.xml file">
+      <created>1495911231638</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1495911231638</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1138,7 +1144,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101240000" />
+    <option name="totallyTimeSpent" value="101250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
