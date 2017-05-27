@@ -23,7 +23,7 @@ public class GitHubLoginValue extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         userNameOremail.sendKeys("beleedey@hotmail.com");
-        password.sendKeys("Pritibi190");
+        password.sendKeys("Your password");
         clickSignInButton.click();
     }
 }

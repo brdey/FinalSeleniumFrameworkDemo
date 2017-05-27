@@ -48,6 +48,7 @@ public class GitHubHomepageClass extends CommonAPI {
         clickOnBeginImport.click();
         clickOnNewCreatedRepositoryLink.click();
     }
+
     // Deleting the repository that has been created automatically
     @FindBy (how = How.CSS, using = "a.js-selected-navigation-item:nth-child(6)")
     WebElement clickOnSettingsTab;
@@ -65,6 +66,7 @@ public class GitHubHomepageClass extends CommonAPI {
         giveTheNameOfRepositoryToBeDeleted.sendKeys("Automated-Project");
         clickIUnderstandDeleteRepository.click();
     }
+
     // Checking the project deleted or Not
     @FindBy (how = How.CSS, using = ".header-nav-link.name.tooltipped.tooltipped-sw.js-menu-target")
     WebElement clickOnArrowOrProfilePic;
@@ -78,6 +80,7 @@ public class GitHubHomepageClass extends CommonAPI {
         JavascriptExecutor jse = (JavascriptExecutor)driver;  // To scroll down the page
         jse.executeScript("window.scrollBy(0,250)", "");
     }
+
     // Signing out from github
     @FindBy (how = How.XPATH, using = ".//*[@id='user-links']/li[3]/a")
     WebElement clickOnArrowOrProfilePicAgain;
