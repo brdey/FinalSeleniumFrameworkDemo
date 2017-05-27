@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitHub/pom.xml" afterPath="$PROJECT_DIR$/GitHub/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java" afterPath="$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java" afterPath="$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="GitHubHomepageClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="470">
+              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -54,17 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GitHubLoginValue.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GitHubLoginValue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginValue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -181,9 +179,9 @@
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/homePage/HomePage.java" />
         <option value="$PROJECT_DIR$/GitHub/pom.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
         <option value="$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java" />
         <option value="$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java" />
       </list>
     </option>
   </component>
@@ -1123,7 +1121,7 @@
       <workItem from="1495807099990" duration="10069000" />
       <workItem from="1495823582350" duration="15171000" />
       <workItem from="1495865476480" duration="684000" />
-      <workItem from="1495888318621" duration="19291000" />
+      <workItem from="1495888318621" duration="20465000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1300,24 +1298,31 @@
       <option name="project" value="LOCAL" />
       <updated>1495911618107</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Change pom.xml file">
+      <created>1495915681342</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1495915681342</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_DhakaStockExchangeBD_src_test_resources_DhakaStockExchangeBDTest_xml - 2017.05.27 at 12h 58m 04s.xml">
       <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/DhakaStockExchangeBD/src/test/resources/DhakaStockExchangeBDTest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_GitHub_src_test_resources_GitHubTestRunner_xml - 2017.05.27 at 12h 32m 10s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/GitHub/src/test/resources/GitHubTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_GitHub_src_test_resources_GitHubTestRunner_xml - 2017.05.27 at 16h 05m 46s.xml">
       <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/GitHub/src/test/resources/GitHubTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_LinkedInProfiileTestRunner_xml - 2017.05.27 at 12h 28m 11s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/LinkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_GitHub_src_test_resources_GitHubTestRunner_xml - 2017.05.27 at 16h 34m 09s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/GitHub/src/test/resources/GitHubTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_LinkedInProfiileTestRunner_xml - 2017.05.27 at 12h 30m 37s.xml">
-      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/LinkedInProfiileTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_GitHub_src_test_resources_GitHubTestRunner_xml - 2017.05.27 at 16h 38m 48s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/GitHub/src/test/resources/GitHubTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_GitHub_src_test_resources_GitHubTestRunner_xml - 2017.05.27 at 16h 41m 06s.xml">
+      <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/GitHub/src/test/resources/GitHubTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_BELEE_IdeaProjects_Selenium_framwork_project_Clone_automation-march2017_LinkedIn_src_test_resources_LinkedInProfiileTestRunner_xml - 2017.05.27 at 12h 36m 02s.xml">
       <configuration name="C:/Users/BELEE/IdeaProjects/Selenium framwork project/Clone/automation-march2017/LinkedIn/src/test/resources/LinkedInProfiileTestRunner.xml" configurationId="TestNG" />
@@ -1336,7 +1341,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104345000" />
+    <option name="totallyTimeSpent" value="105519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1820,14 +1825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GitHub/src/test/resources/GitHubTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1836,18 +1833,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/loginPage/LoginValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubHomePage/GitHubHomepageClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHub/src/main/java/gitHubLoginPage/GitHubLoginValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
       </provider>

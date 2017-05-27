@@ -52,7 +52,7 @@ public class GitHubHomepageClass extends CommonAPI {
     // Deleting the repository that has been created automatically
     @FindBy (how = How.CSS, using = "a.js-selected-navigation-item:nth-child(6)")
     WebElement clickOnSettingsTab;
-    @FindBy (how = How.XPATH, using = ".//*[@id='options_bucket']/div[5]/div/button[3]")
+    @FindBy (how = How.CSS, using = "#options_bucket > div.boxed-group.dangerzone > div > button:nth-child(11)")
     WebElement clickDeleteRepository;
     @FindBy (how = How.XPATH, using = ".//*[@id='facebox']/div/div/form/p/input")
     WebElement giveTheNameOfRepositoryToBeDeleted;
