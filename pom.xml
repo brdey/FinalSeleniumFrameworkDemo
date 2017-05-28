@@ -14,7 +14,6 @@
         <module>W3Schools</module>
         <module>LinkedIn</module>
         <module>GitHub</module>
-        <module>Walmart</module>
         <module>DhakaStockExchangeBD</module>
     </modules>
     <dependencyManagement>

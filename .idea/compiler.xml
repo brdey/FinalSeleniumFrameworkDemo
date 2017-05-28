@@ -12,7 +12,6 @@
         <module name="LinkedIn" />
         <module name="NYP" />
         <module name="W3Schools" />
-        <module name="Walmart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
