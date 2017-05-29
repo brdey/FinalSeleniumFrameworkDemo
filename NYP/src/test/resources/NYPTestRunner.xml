@@ -13,8 +13,8 @@
 
     <test name = "NYP Home">
         <classes>
-            <class name="news.News"/>
-            <class name="metro.Metro"/>
+            <!--<class name="news.News"/>-->
+            <!--<class name="metro.Metro"/>-->
         </classes>
     </test>
 

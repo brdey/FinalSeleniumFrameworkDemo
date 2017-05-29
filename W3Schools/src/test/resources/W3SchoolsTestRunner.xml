@@ -13,7 +13,7 @@
 
     <test name = "W3Schools Home">
         <classes>
-            <class name="tabledata.ReadTableData"/>
+            <!--<class name="tabledata.ReadTableData"/>-->
         </classes>
     </test>
 

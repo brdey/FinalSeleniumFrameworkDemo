@@ -12,7 +12,7 @@
     <parameter name="url" value="http://www.dsebd.org/"/>
     <test name = "Testing Dhaka Stock Exchange">
         <classes>
-            <class name="allAboutUsDropDownMenu.AllAboutUsDropDownMenu"></class>
+            <!--<class name="allAboutUsDropDownMenu.AllAboutUsDropDownMenu"></class>-->
         </classes>
     </test>
 </suite>
