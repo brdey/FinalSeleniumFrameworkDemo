@@ -19,7 +19,7 @@ public class GitHubHomepageClass extends CommonAPI {
         gitHubLoginValue.accessMyGithubLoginInfo();
     }
 
-   @FindBy (how = How.CSS, using = "a.btn:nth-child(1)")
+    @FindBy (how = How.CSS, using = "a.btn:nth-child(1)")
     WebElement clickOnNewRepositoryButton;
     @FindBy (how = How.XPATH, using = ".//*[@id='repository_name']")
     WebElement repositoryName;

@@ -23,7 +23,6 @@ public class HomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         return myNetworkTab;
     }
-
     //Test -1 Verifying error message with Invalid login information
     public void enteringInvalidLoginData() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
@@ -67,6 +66,7 @@ public class HomePage extends CommonAPI {
         email.sendKeys("invaidemail@invalid.com");
         password.sendKeys("abc1234");
         joinNow.click();
+
        /* String actualError = driver.findElement(By.cssSelector("#captcha-title")).getAttribute("innerHTML");
         String expectedError = "Security verification";
         Assert.assertEquals(actualError, expectedError);
